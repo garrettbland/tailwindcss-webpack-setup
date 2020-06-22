@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-webpack-setup",
+  "version": "1.0.0",
+  "description": "Setting up tailwind css with webpack and purge css",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:prod": "export NODE_ENV=production && webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettbland/tailwindcss-webpack-setup.git"
+  },
+  "keywords": [],
+  "author": "Garrett Bland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrettbland/tailwindcss-webpack-setup/issues"
+  },
+  "homepage": "https://github.com/garrettbland/tailwindcss-webpack-setup#readme",
+  "dependencies": {
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "tailwindcss": "^1.4.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
