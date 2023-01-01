@@ -19,10 +19,10 @@
   },
   "homepage": "https://github.com/garrettbland/tailwindcss-webpack-setup#readme",
   "dependencies": {
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "^7.0.2",
     "style-loader": "^1.2.1",
     "tailwindcss": "^1.4.6",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
